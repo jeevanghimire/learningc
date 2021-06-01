@@ -1,13 +1,18 @@
 #include <stdio.h>
 
-     int main(){ 
-         int a;
-printf("Enter how many time you lwant the sum: ");
-scanf(" %d",&a);
-int sum=1;
-int i;
-for (i = 1, i<=a,i++){
-
-    
+int main()
+{
+    int a;
+    int term = 1;
+    printf("Enter how many time you want the sum: ");
+    scanf(" %d", &a);
+    int sum = 0;
+    int i;
+    for (i = 1; i <= a; i++)
+    {
+        sum = sum + term;
+        term = term * 10 + 1;
+    }
+    printf("The sum is %d", sum);
+    return 0;
 }
-return 0;}
