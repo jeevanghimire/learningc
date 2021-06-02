@@ -8,28 +8,29 @@ int main()
     int number[n];
     printf("Enter %d number: ", n);
     int i;
-    for (i = 1; i < n; i++)
+    for (i = 0; i < n; i++)
     {
         scanf("%d", &number[i]);
-        
     }
     for (i = 0; i < n; i++)
     {
         int num = number[i];
+        //checking if num is prim or not for program
         int j;
+
         int is_prime = 1;
 
-        for (j = 2; j = n - 1; j++)
+        for (j = 2; j <= num - 1; j++)
         {
             if (num % j == 0)
             {
                 is_prime = 0;
                 break;
-            } 
-            {
-                printf("%d", num);
             }
-            printf("\n");
+        }
+        if (is_prime)
+        {
+            printf(" The prime number is %d. ", num);
         }
     }
 
