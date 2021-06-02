@@ -18,6 +18,8 @@ int main()
         m = a + d * i;
         printf("the numbers are %f. \n", m);
     }
+    
 
     return 0;
 }
+
