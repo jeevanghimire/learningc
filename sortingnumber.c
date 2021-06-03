@@ -37,7 +37,6 @@ int main()
     printf("The array are:");
 
     for (i = 0; i < n; i++)
-    //printing the array
     {
 
         printf("%.3f ", number[i]);
