@@ -24,7 +24,6 @@ int main()
         for (j = 0; j < n - 1 - i; j++)
         {
             //also surting by just using buble algorithms
-            //now checking in decending order for arry
             if (number[j] < number[j + 1])
             {
 
