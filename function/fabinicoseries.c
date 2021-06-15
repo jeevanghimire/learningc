@@ -1,7 +1,7 @@
 #include <stdio.h>
   
 
-    void  print_fabonacci(int n){
+    void  print_fabonacco(int n){
         //checking the number for fabbonacci series
         printf("The fabiniko series are :");
         int i,a=0,b=1;
@@ -21,7 +21,7 @@ int main()
 int num;
 printf("Enter the number for fabbonacci series:");
 scanf("%d", &num);
-print_fabonacci(num);
+print_fabonacco(num);
 
     return 0;
 }
