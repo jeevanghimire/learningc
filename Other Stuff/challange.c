@@ -1,19 +1,16 @@
 #include <stdio.h>
-#include <string.h>
+int *maxinum_min(int *a, int *b)
+{
+ (*a) > (*b) ?? return a,  return b;
+}
 
 int main()
 {
-    int i, j;
-    char n[] = "*******";
-    int len = strlen(n);
+int m = 55 , n = 100;
+int *p;
+p = maxinum_min(&m, &n);
+printf("maxium = %d\n", m);
 
-    for (i = 0; i <=3; i++)
-    {
-        for (j = 7; j <= len - i - 1; j++)
-        {
-            printf("%c", n[j]);
-        }
-        printf("\n");
-    }
+
     return 0;
 }
