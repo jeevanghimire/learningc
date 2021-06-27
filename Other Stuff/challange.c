@@ -1,16 +1,27 @@
 #include <stdio.h>
-int *maxinum_min(int *a, int *b)
-{
-
-  return (*a>*b)?a:b;
-}
+#define A 20
+#ifdef A
+#define B 10
+#undef A
+#endif
+#define echo(m) printf(m);
+#ifdef A
+#define A 100
+#else
+#define A 50
+#endif
 
 int main()
 {
-    int m = 550, n = 100;
-    int *p;
-    p = maxinum_min(&m, &n);
-    printf("maxinum = %d\n", *p);
+#ifdef B
+  echo("It is not define : ")
 
-    return 0;
+#endif
+#if A>60
+echo ("A is greatier than 60 : ")
+#else
+echo("A is less than 60");
+#endif
+
+      return 0;
 }
