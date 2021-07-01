@@ -20,6 +20,7 @@ int main()
     // c = sum_number(a, b);
     // printf("%d",c);
     int n;
+
     n = loop(10);
     printf("%d", n);
 
