@@ -17,8 +17,7 @@ void print_fabonacco(int n)
 
 int main()
 {
-    int num;
-    
+    int num; 
     printf("Enter the number for fibonacchi series:");
     scanf("%d", &num);
     print_fabonacco(num);
