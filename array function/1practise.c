@@ -1,3 +1,4 @@
+//Entering how many sum want to return in the program;)
 #include <stdio.h>
 
 int main()
