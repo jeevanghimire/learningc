@@ -14,7 +14,7 @@ scanf("%s", n);
 int i, j,k;
 for (i = 0; i <n['\0']; i++){
     for (j='\0';j<=i; j--){
-        int temp[100]=n[i];
+        int temp[100] = n[i];
         n[i]=n[j];
         n[j]=temp[i];
         result[k] = temp[i];
