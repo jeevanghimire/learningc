@@ -5,7 +5,7 @@ int main()
     char user_name;
     printf("Enter the user name of your computer:");
     scanf("%c", &user_name);
-#if defined(_linux) || (_unix)
+#if defined __linux__
     printf("The user path is /home/%c", user_name);
 #endif
 #ifdef __WIN64
