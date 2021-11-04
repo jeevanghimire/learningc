@@ -1,3 +1,5 @@
+// to calculate arthemtic mean of an array
+
 #include <stdio.h>
 int main()
 {

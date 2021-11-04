@@ -1,4 +1,4 @@
-//Multiplying matrix using function
+//Muliplying matrix using function
 #include <stdio.h>
 #define Row 2
 #define Column 2
@@ -13,7 +13,7 @@ void multiplymat(int x[Row][Column], int y[Row][Column])
             int sum = 0;
             for (k = 0; k<2; k++)
             {
-                sum = sum + x[i][k] * y[k][j];
+                sum = sum + x[i][k] *  y[k][j];
             }
             printf("%d\t", sum);
         }
