@@ -7,7 +7,7 @@ void print_fabonacco(int n)
     int i, a = 0, b = 1;
     for (i = 0; i < n; i++)
     {
-        //programming the fabiniko algo
+        //programming the fabonacci series
         printf("%ld ", a);
         int c = a + b;
         a = b;
