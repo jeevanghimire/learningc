@@ -9,7 +9,7 @@ int main()
 
     printf("Enter the number for matrix A :\n ");
 
-    //soriing number in matrix A
+    //soriting number in matrix A
     int i, j;
     for (i = 0; i < 2; i++)
 
@@ -20,7 +20,7 @@ int main()
         }
     }
     printf("Enter the number of matrixB:\n");
-    //soriing number for matrix matrix B
+    //sorting number for matrix matrix B
     for (i = 0; i < 2; i++)
     {
         for (j = 0; j < 2; j++)
