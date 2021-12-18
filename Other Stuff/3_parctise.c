@@ -18,7 +18,7 @@ int main()
 
          
     }
-printf (" sum is %.03f. \n", sum);
+    printf (" sum is %.03f. \n", sum);
 
     return 0;
 }

@@ -1,13 +1,13 @@
 #include <stdio.h>
-
+//all good to go 
 int main()
 {
     int m, n;
-    printf("Enter the number for demension (m,n) :");
+    int matA[m] [n];
+    int matAt[m] [n];
+     printf("Enter the number for demension (m,n) :");
     scanf("%d%d", &m, &n);
 
-    int matA[m][n];
-    int matAt[m][n];
 
     printf("Enter the number for matrix", m, n);
 
