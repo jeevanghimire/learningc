@@ -1,29 +1,30 @@
 #include <stdio.h>
-//all good to go 
+
 int main()
 {
+
     int m, n;
-    int matA[m] [n];
-    int matAt[m] [n];
-     printf("Enter the number for demension (m,n) :");
+    printf("Enter the dimensions of matrix (m,n): ");
     scanf("%d%d", &m, &n);
 
+    int matrix[m][n];
+    int result[m][n];
 
-    printf("Enter the number for matrix", m, n);
-
+    printf("Enter a %dx%d matrix: \n", m, n);
     int i, j;
     for (i = 0; i < m; i++)
     {
         for (j = 0; j < n; j++)
         {
-            scanf("%d", &matA[i][j]);
+            scanf("%d", &matrix[i][j]);
         }
     }
+
     for (i = 0; i < m; i++)
     {
         for (j = 0; j < n; j++)
         {
-            matAt[i][j] = matA[i][j];
+            result[i][j] = matrix[j][i];
         }
     }
 
@@ -32,11 +33,9 @@ int main()
     {
         for (j = 0; j < n; j++)
         {
-
-            printf("%d \t", matAt[i][j]);
+            printf("%d\t", result[i][j]);
         }
         printf("\n");
     }
-
     return 0;
 }
