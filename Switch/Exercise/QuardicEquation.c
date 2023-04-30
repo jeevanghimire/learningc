@@ -19,7 +19,7 @@ int main()
         x1 = (-1 * b + sqrt(discriminant)) / (2 * a);
         x2 = (-1 * b - sqrt(discriminant)) / (2 * a);
 
-        printf("The root are:%.3f and %.3f", x1, x2);
+        printf("The root are:%.3f and %.33f", x1, x2);
     }
     else
     {
